@@ -1,0 +1,52 @@
+body{
+
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+
+#error {
+        width: 500px;
+        margin: 5px auto;
+        height: 40px;
+/*      background-color: #F00;*/
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 15px;
+        display:none;
+    }
+
+.input-group-prepend span {
+  width: 50px;
+  background: linear-gradient(#16C0B0, #16C0B0);
+  color: #fff;
+  border: 0 !important;
+}
+
+
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 10px 0px 0;
+  border-color: #fff #fff #F2F1F1 #F2F1F1;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+   transition: all ease .5s;
+ 
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.card:hover:before {
+  border-width: 0 20px 20px 0;
+  border-color: #FEFEFE  #f5f5f5;
+
+  
+}
